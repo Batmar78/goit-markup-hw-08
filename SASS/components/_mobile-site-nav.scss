@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px) {
+    .mobile-site-nav {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 306px;
+    
+        .link {
+            font-size: 40px;
+            line-height: 1.18;
+            color: var(--title-text-color);
+        }
+    }
+    
+    .mobile-site-nav__item:not(:last-child) {
+        margin-bottom: 32px;
+    
+    }
+    
+    .mobile-site-nav__link-home:hover,
+    .mobile-site-nav__link-home:focus {
+        color: var(--accent-color);
+    }
+    
+    .mobile-site-nav__link-portfolio:hover,
+    .mobile-site-nav__link-portfolio:focus {
+         color: var(--accent-color);
+    }
+    
+    .mobile-site-nav__link-contact:hover,
+    .mobile-site-nav__link-contact:focus {
+         color: var(--accent-color);
+    }
+}
+

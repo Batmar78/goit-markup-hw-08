@@ -1,0 +1,25 @@
+.logo {
+    display: block;
+    font-family: var(--alt-font), var(--alt-title-font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo__header {
+    color: var(--primary-black-color);
+}
+
+.logo__footer {
+    color: var(--primary-white-color);
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    
+}

@@ -1,0 +1,169 @@
+.hero {
+    max-width: 480px;
+    height: 400px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-color: var(--alt-dark-background-color);
+    background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url('../../images/Hero_mob_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url('../../images/Hero_mob_img@2x.jpg');
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 3),
+screen and (min-resolution: 288dpi),
+screen and (min-resolution: 3dppx) {
+    .hero {
+        background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url('../../images/Hero_mob_img@3x.jpg');
+
+    }
+}
+
+.hero__text {
+    max-width: 360px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--primary-white-color);
+
+}
+
+.hero__btn {
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    background-color: var(--accent-color);
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--time-animation) va(--timing-function),
+        box-shadow var(--time-animation) var(--timing-function);
+    
+    &:hover,
+    &:focus {
+        background-color: #188ce8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.hero__btn-text {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        max-width: 768px;
+        background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../../images/Hero_tab_img.jpg');
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../../images/Hero_tab_img@2x.jpg');
+    
+        }
+    }
+    
+    @media screen and (min-device-pixel-ratio: 3),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+        .hero {
+            background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../../images/Hero_Tab_img@3x.jpg');
+    
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        max-width: 1600px;
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+        background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../../images/Hero_Desc_img.jpg');
+
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../../images/Hero_Desc_img@2x.jpg');
+    
+        }
+    }
+    
+    @media screen and (min-device-pixel-ratio: 3),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+        .hero {
+            background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url('../../images/Hero_Desc_img@3x.jpg');
+    
+        }
+    }
+
+    .hero__text {
+        max-width: 700px;
+        font-size: 44px;
+        line-height: 1.3;   
+    }
+}
