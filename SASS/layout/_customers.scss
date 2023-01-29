@@ -45,6 +45,13 @@
     fill: currentColor;
 }
 
+@media screen and (max-width: 479px) {
+    .customers__list {
+         justify-content: center;
+    }
+    
+}
+
 @media screen and (min-width: 768px) { 
     .klient>.thumb {
         width: 226px;

@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     .mobile-menu {
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
@@ -36,6 +36,12 @@
         border: none;
         padding: 0;
         line-height: 0;
+
+        &:hover,
+        &:focus {
+            fill: var(--accent-color);
+        }
+
     }
 }
 

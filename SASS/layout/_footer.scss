@@ -2,7 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     font-style: normal;
-    text-align: center;
+    /*text-align: center;*/
     background-color: var(--dark-background-color);
 
     .logo {
@@ -187,6 +187,12 @@
     
 }
 
+@media screen and (max-width: 1199px) {
+    .footer {
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .footer {
         .logo {
@@ -248,34 +254,4 @@
             margin-left: 10px;
         }   
     }
-}
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
+}    

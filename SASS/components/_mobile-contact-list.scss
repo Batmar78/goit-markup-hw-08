@@ -24,3 +24,21 @@
     }
 }
 
+@media screen and (max-width: 479px) {
+    .mobile-contact-list {
+        margin-bottom: 42px;
+    }
+
+    .mobile-contact-list__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .mobile-contact-list__link-tel {
+        font-size: 24px;
+    }
+
+    .mobile-contact-list__link-mail {
+        font-size: 18px;
+    }
+}
+

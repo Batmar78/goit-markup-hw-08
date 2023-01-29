@@ -28,9 +28,15 @@
     }
     
     .mobile-social-networks__item-link {
-           font-size: 18px;
+        font-size: 18px;
         line-height: 1.22;
         color: var(--accent-color);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .mobile-social-networks__item-link {
+        font-size: 10px;
     }
 }
 

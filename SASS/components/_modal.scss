@@ -229,6 +229,20 @@ textarea {
         }
 }
 
+@media screen and (max-width: 479px) {
+    .modal__title {
+        font-size: 14px;
+    }
+
+    .modal-form__label {
+        font-size: 10px;
+    }
+
+    .modal-form__input-textarea {
+        height: 100px;
+    }
+}
+
 @media screen and (min-width: 480px) {
     .modal {
         width: 450px;
@@ -237,9 +251,6 @@ textarea {
 
 @media screen and (min-width: 1200px) {
     .modal {
-        /*position: absolute;
-            top: 50%;
-            left: 50%;*/
         width: 528px;
     }
     

@@ -15,6 +15,11 @@
         margin-bottom: 32px;
     
     }
+
+    .mobile-site-nav__link-home.curent,
+    .mobile-site-nav__link-portfolio.curent {
+        color: var(--accent-color);
+    }
     
     .mobile-site-nav__link-home:hover,
     .mobile-site-nav__link-home:focus {
@@ -32,3 +37,25 @@
     }
 }
 
+@media screen and (max-width: 479px) {
+    .mobile-site-nav {
+        
+        margin-bottom: 186px;
+    
+        .link {
+            font-size: 30px;
+            line-height: 1.18;
+            color: var(--title-text-color);
+        }
+    }
+
+    .mobile-site-nav__item:not(:last-child) {
+        margin-bottom: 24px;
+    
+    }
+
+    .mobile-site-nav__link-home.curent,
+    .mobile-site-nav__link-portfolio.curent {
+           color: var(--accent-color);
+    }
+}
