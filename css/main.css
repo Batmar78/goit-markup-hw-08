@@ -1551,8 +1551,8 @@ textarea::placeholder {
      -moz-column-gap: 8px;
           column-gap: 8px;
   margin-bottom: 40px;
-  -ms-flex-preferred-size: calc((100% - 16px) / 3);
-      flex-basis: calc((100% - 16px) / 3);
+  -ms-flex-preferred-size: calc((100% - 20px) / 3);
+      flex-basis: calc((100% - 20px) / 3);
 }
 
 .all,
@@ -1560,10 +1560,10 @@ textarea::placeholder {
 .app,
 .design,
 .marketing {
-  padding: 6px 22px 6px 22px;
+  padding: 6px 24px 6px 24px;
   font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.625;
   background-color: var(--alt-background-color);
   color: var(--title-text-color);
